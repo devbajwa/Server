@@ -4,8 +4,9 @@ const fs = require('fs').promises;
 const app = express();
 const port = process.env.PORT || 3001;
 
-app.use(express.json());
 app.use(cors());
+app.use(express.json());
+app.use(express.static('public'));
 
 app.get("/", (req, res) => res.type('html').send(html));
 
@@ -40,7 +41,12 @@ const html = `
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dev Bajwa Server</title>
+    <title>Dev Bajwa Server API</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="/favicon.ico">
     <style>
       @import url("https://p.typekit.net/p.css?s=1&k=vnd5zic&ht=tk&f=39475.39476.39477.39478.39479.39480.39481.39482&a=18673890&app=typekit&e=css");
       @font-face {
