@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "text": "Vue",
+    "desc": "It is a JavaScript framework for building user interfaces.",
+    "isFav": false,
+    "ingredients": [{ "name": "Book" }, { "name": "Youtube" }]
+  },
+  {
+    "id": 2,
+    "text": "JavaScript",
+    "desc": "It is a dynamic programming language for web development.",
+    "isFav": false,
+    "ingredients": [{ "name": "Book" }, { "name": "CD" }, { "name": "Youtube" }]
+  }
+]
