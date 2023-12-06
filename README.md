@@ -7,5 +7,4 @@ This is the Express server API which has two end points.
 
 ## Deployment
 
-  * Build Command: `yarn`
   * Start Command: `node app.js`
