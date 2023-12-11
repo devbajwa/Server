@@ -1,16 +1,216 @@
 [
   {
     "id": 1,
-    "text": "Vue",
-    "desc": "It is a JavaScript framework for building user interfaces.",
+    "name": "Chocolate Cake",
+    "desc": "Delicious sweet chocolate cake",
     "isFav": false,
-    "ingredients": [{ "name": "Book" }, { "name": "Youtube" }]
+    "ingredients": [
+      { "name": "Flour", "qty": "2 cups" },
+      { "name": "Cocoa Powder", "qty": "1/2 cup" },
+      { "name": "Sugar", "qty": "1 cup" },
+      { "name": "Baking Powder", "qty": "1 teaspoon" },
+      { "name": "Butter", "qty": "1/2 cup" },
+      { "name": "Eggs", "qty": "2" },
+      { "name": "Vanilla Extract", "qty": "1 teaspoon" },
+      { "name": "Milk", "qty": "1 cup" },
+      { "name": "Chocolate Chips", "qty": "1/2 cup" }
+    ],
+    "steps": [
+      { "step": "Preheat the oven to 350°F (175°C)." },
+      { "step": "In a bowl, mix flour, cocoa powder, sugar, and baking powder." },
+      { "step": "In another bowl, beat butter, eggs, and vanilla extract." },
+      { "step": "Gradually add the dry ingredients to the wet ingredients, alternating with milk." },
+      { "step": "Fold in chocolate chips." },
+      { "step": "Pour the batter into a greased cake pan." },
+      { "step": "Bake for 30-35 minutes or until a toothpick comes out clean." },
+      { "step": "Let it cool before serving." }
+    ],
+    "category": "Dessert",
+    "prepTime": "15 min",
+    "cookTime": "35 min",
+    "spiceLevel": "",
+    "sugarLevel": "Moderate",
+    "chef": "John Doe",
+    "occasion": "Birthday"
   },
   {
     "id": 2,
-    "text": "JavaScript",
-    "desc": "It is a dynamic programming language for web development.",
+    "name": "Chicken Nihari",
+    "desc": "Amazing spicy slow-cooked chicken dish",
     "isFav": false,
-    "ingredients": [{ "name": "Book" }, { "name": "CD" }, { "name": "Youtube" }]
+    "ingredients": [
+      { "name": "Chicken", "qty": "1 kg" },
+      { "name": "Wheat Flour", "qty": "1/4 cup" },
+      { "name": "Ginger Garlic Paste", "qty": "2 tablespoons" },
+      { "name": "Nihari Masala", "qty": "3 tablespoons" },
+      { "name": "Salt", "qty": "to taste" },
+      { "name": "Oil", "qty": "1/2 cup" },
+      { "name": "Water", "qty": "6 cups" },
+      { "name": "Ginger Slices", "qty": "for garnish" },
+      { "name": "Fresh Coriander", "qty": "for garnish" }
+    ],
+    "steps": [
+      { "step": "In a pot, add chicken, wheat flour, ginger garlic paste, nihari masala, and salt." },
+      { "step": "Add water and bring to a boil." },
+      { "step": "Reduce heat, cover, and simmer on low heat for 4-6 hours." },
+      { "step": "In a separate pan, heat oil and add it to the simmering chicken mixture." },
+      { "step": "Continue cooking until the oil separates." },
+      { "step": "Garnish with ginger slices and fresh coriander before serving." }
+    ],
+    "category": "Main Course",
+    "prepTime": "20 min",
+    "cookTime": "4-6 hours",
+    "spiceLevel": "High",
+    "sugarLevel": "",
+    "chef": "Farhan",
+    "occasion": "Family Gathering"
+  },
+  {
+    "id": 3,
+    "name": "Caprese Salad",
+    "desc": "Fresh and flavorful Italian salad",
+    "isFav": false,
+    "ingredients": [
+      { "name": "Tomatoes", "qty": "4 large, sliced" },
+      { "name": "Fresh Mozzarella", "qty": "1 cup, sliced" },
+      { "name": "Fresh Basil Leaves", "qty": "1 cup" },
+      { "name": "Extra Virgin Olive Oil", "qty": "2 tablespoons" },
+      { "name": "Balsamic Vinegar", "qty": "1 tablespoon" },
+      { "name": "Salt and Pepper", "qty": "to taste" }
+    ],
+    "steps": [
+      { "step": "Arrange tomato and mozzarella slices on a serving platter." },
+      { "step": "Tuck fresh basil leaves between the slices." },
+      { "step": "Drizzle olive oil and balsamic vinegar over the salad." },
+      { "step": "Season with salt and pepper to taste." },
+      { "step": "Serve immediately and enjoy!" }
+    ],
+    "category": "Salad",
+    "prepTime": "10 min",
+    "cookTime": "0 min",
+    "spiceLevel": "Mild",
+    "sugarLevel": "",
+    "chef": "Maria",
+    "occasion": "Summer Picnic"
+  },
+  {
+    "id": 4,
+    "name": "Vegetable Stir-Fry",
+    "desc": "Quick and healthy stir-fried vegetables",
+    "isFav": false,
+    "ingredients": [
+      { "name": "Broccoli", "qty": "2 cups, florets" },
+      { "name": "Carrots", "qty": "2, julienned" },
+      { "name": "Bell Peppers", "qty": "1 each, sliced" },
+      { "name": "Snow Peas", "qty": "1 cup" },
+      { "name": "Soy Sauce", "qty": "3 tablespoons" },
+      { "name": "Garlic", "qty": "2 cloves, minced" },
+      { "name": "Ginger", "qty": "1 tablespoon, grated" },
+      { "name": "Vegetable Oil", "qty": "2 tablespoons" }
+    ],
+    "steps": [
+      { "step": "Heat oil in a wok or pan over high heat." },
+      { "step": "Add garlic and ginger, sauté for 1 minute." },
+      { "step": "Add vegetables and stir-fry for 5-7 minutes until crisp-tender." },
+      { "step": "Pour soy sauce over the vegetables, toss to combine." },
+      { "step": "Serve hot as a side dish or over rice." }
+    ],
+    "category": "Vegetarian",
+    "prepTime": "15 min",
+    "cookTime": "7 min",
+    "spiceLevel": "Mild",
+    "sugarLevel": "",
+    "chef": "David",
+    "occasion": "Weeknight Dinner"
+  },
+  {
+    "id": 5,
+    "name": "Mango Salsa",
+    "desc": "Refreshing tropical salsa with a hint of spice",
+    "isFav": false,
+    "ingredients": [
+      { "name": "Mango", "qty": "2, diced" },
+      { "name": "Red Onion", "qty": "1/2, finely chopped" },
+      { "name": "Cilantro", "qty": "1/4 cup, chopped" },
+      { "name": "Jalapeño", "qty": "1, seeded and finely chopped" },
+      { "name": "Lime Juice", "qty": "2 tablespoons" },
+      { "name": "Salt", "qty": "to taste" },
+      { "name": "Tortilla Chips", "qty": "for serving" }
+    ],
+    "steps": [
+      { "step": "In a bowl, combine diced mango, red onion, cilantro, and jalapeño." },
+      { "step": "Drizzle lime juice over the mixture and toss to combine." },
+      { "step": "Season with salt to taste." },
+      { "step": "Chill in the refrigerator for at least 30 minutes before serving." },
+      { "step": "Serve with tortilla chips and enjoy!" }
+    ],
+    "category": "Appetizer",
+    "prepTime": "10 min",
+    "cookTime": "0 min",
+    "spiceLevel": "",
+    "sugarLevel": "Moderate",
+    "chef": "Sophia",
+    "occasion": "Summer BBQ"
+  },
+  {
+    "id": 6,
+    "name": "Spaghetti Bolognese",
+    "desc": "Classic Italian meat sauce with pasta",
+    "isFav": false,
+    "ingredients": [
+      { "name": "Ground Beef", "qty": "1 lb" },
+      { "name": "Onion", "qty": "1, finely chopped" },
+      { "name": "Garlic", "qty": "3 cloves, minced" },
+      { "name": "Tomato Sauce", "qty": "2 cups" },
+      { "name": "Tomato Paste", "qty": "2 tablespoons" },
+      { "name": "Italian Seasoning", "qty": "1 teaspoon" },
+      { "name": "Red Wine", "qty": "1/2 cup" },
+      { "name": "Salt and Pepper", "qty": "to taste" },
+      { "name": "Spaghetti", "qty": "1 lb, cooked" },
+      { "name": "Parmesan Cheese", "qty": "for garnish" }
+    ],
+    "steps": [
+      { "step": "In a large pan, brown ground beef over medium heat." },
+      { "step": "Add chopped onion and garlic, sauté until softened." },
+      { "step": "Stir in tomato sauce, tomato paste, Italian seasoning, and red wine." },
+      { "step": "Simmer for 20-30 minutes, season with salt and pepper to taste." },
+      { "step": "Serve the sauce over cooked spaghetti, garnish with Parmesan cheese." }
+    ],
+    "category": "Main Course",
+    "prepTime": "15 min",
+    "cookTime": "30 min",
+    "spiceLevel": "Mild",
+    "sugarLevel": "",
+    "chef": "Antonio",
+    "occasion": "Family Dinner"
+  },
+  {
+    "id": 7,
+    "name": "Avocado Toast",
+    "desc": "Simple and nutritious breakfast or snack",
+    "isFav": false,
+    "ingredients": [
+      { "name": "Avocado", "qty": "1, mashed" },
+      { "name": "Whole Grain Bread", "qty": "2 slices, toasted" },
+      { "name": "Cherry Tomatoes", "qty": "1/2 cup, sliced" },
+      { "name": "Red Pepper Flakes", "qty": "to taste" },
+      { "name": "Salt and Pepper", "qty": "to taste" },
+      { "name": "Lemon Juice", "qty": "1 teaspoon" },
+      { "name": "Fresh Basil", "qty": "for garnish" }
+    ],
+    "steps": [
+      { "step": "Spread mashed avocado evenly on toasted bread slices." },
+      { "step": "Top with sliced cherry tomatoes and red pepper flakes." },
+      { "step": "Season with salt, pepper, and a drizzle of lemon juice." },
+      { "step": "Garnish with fresh basil leaves before serving." },
+      { "step": "Enjoy as a quick and healthy breakfast or snack!" }
+    ],
+    "category": "Breakfast",
+    "prepTime": "5 min",
+    "cookTime": "5 min",
+    "spiceLevel": "Mild",
+    "sugarLevel": "",
+    "chef": "Isabel",
+    "occasion": "Anytime"
   }
 ]
