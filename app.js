@@ -36,8 +36,7 @@ app.post('/api/saveRecipe', async (req, res) => {
     try {
       const fileData = await fs.readFile('./data/recipes.json', 'utf-8');
       const jsonData = JSON.parse(fileData);
-
-      const recipe = jsonData.find(recipe => recipe.id === req.params.id);
+      const recipe = jsonData.find(recipe => recipe.id === parseInt(req.params.id));
 
       if(recipe) {
         res.status(200).json(recipe);
