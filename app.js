@@ -32,6 +32,25 @@ app.post('/api/saveRecipe', async (req, res) => {
     }
   });
 
+  app.get('/api/getRecipe/:id', async (req, res) => {
+    try {
+      const fileData = await fs.readFile('./data/recipes.json', 'utf-8');
+      const jsonData = JSON.parse(fileData);
+
+      const recipe = jsonData.find(recipe => recipe.id === req.params.id);
+
+      if(recipe) {
+        res.status(200).json(recipe);
+      }else {
+        res.status(404).json({ error: 'Recipe not found' });
+      }
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ message: 'Error getting data' });
+    }
+  });
+
+
 const server = app.listen(port, () => console.log(`App listening on port ${port}!`));
 
 server.keepAliveTimeout = 120 * 1000;
