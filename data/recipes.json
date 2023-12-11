@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "date": "12/10/2023",
     "name": "Chocolate Cake",
     "desc": "Delicious sweet chocolate cake",
@@ -35,7 +35,7 @@
     "occasion": "Birthday"
   },
   {
-    "id": 2,
+    "id": "2",
     "date": "11/10/2023",
     "name": "Chicken Nihari",
     "desc": "Amazing spicy slow-cooked chicken dish",
@@ -68,7 +68,7 @@
     "occasion": "Family Gathering"
   },
   {
-    "id": 3,
+    "id": "3",
     "date": "10/10/2023",
     "name": "Caprese Salad",
     "desc": "Fresh and flavorful Italian salad",
@@ -97,7 +97,7 @@
     "occasion": "Summer Picnic"
   },
   {
-    "id": 4,
+    "id": "4",
     "date": "12/10/2023",
     "name": "Vegetable Stir-Fry",
     "desc": "Quick and healthy stir-fried vegetables",
@@ -128,7 +128,7 @@
     "occasion": "Weeknight Dinner"
   },
   {
-    "id": 5,
+    "id": "5",
     "date": "13/10/2023",
     "name": "Mango Salsa",
     "desc": "Refreshing tropical salsa with a hint of spice",
@@ -158,7 +158,7 @@
     "occasion": "Summer BBQ"
   },
   {
-    "id": 6,
+    "id": "6",
     "date": "12/10/2023",
     "name": "Spaghetti Bolognese",
     "desc": "Classic Italian meat sauce with pasta",
@@ -191,7 +191,7 @@
     "occasion": "Family Dinner"
   },
   {
-    "id": 7,
+    "id": "7",
     "date": "12/12/2023",
     "name": "Avocado Toast",
     "desc": "Simple and nutritious breakfast or snack",
@@ -221,7 +221,7 @@
     "occasion": "Anytime"
   },
   {
-    "id": 8,
+    "id": "8",
     "date": "1/12/2023",
     "name": "Margherita Pizza",
     "desc": "Classic Italian pizza with simple and fresh ingredients",
@@ -254,5 +254,37 @@
     "sugarLevel": "Low",
     "chef": "Luigi",
     "occasion": "Pizza Night"
-  }
+  },
+  {
+    "id": "01f97262-8207-4314-b08e-018a49b2dbb2",
+    "date": "12/12/2023",
+    "name": "Chicken Tikka",
+    "desc": "This is a BBQ",
+    "isFav": true,
+    "ingredients": [
+        {
+            "name": "Chicken",
+            "qty": "3"
+        },
+        {
+            "name": "Spicy",
+            "qty": "2"
+        }
+    ],
+    "steps": [
+        {
+            "step": "Chicken and spices mix"
+        },
+        {
+            "step": "BBQ on fire"
+        }
+    ],
+    "category": "Snack",
+    "prepTime": "20 mins",
+    "cookTime": "2 hrs",
+    "spiceLevel": "High",
+    "sugarLevel": "",
+    "chef": "Manu",
+    "occasion": "BBQ Night"
+}
 ]
