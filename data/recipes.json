@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "date": "12/10/2023",
     "name": "Chocolate Cake",
     "desc": "Delicious sweet chocolate cake",
     "isFav": false,
@@ -35,6 +36,7 @@
   },
   {
     "id": 2,
+    "date": "11/10/2023",
     "name": "Chicken Nihari",
     "desc": "Amazing spicy slow-cooked chicken dish",
     "isFav": false,
@@ -67,6 +69,7 @@
   },
   {
     "id": 3,
+    "date": "10/10/2023",
     "name": "Caprese Salad",
     "desc": "Fresh and flavorful Italian salad",
     "isFav": false,
@@ -95,6 +98,7 @@
   },
   {
     "id": 4,
+    "date": "12/10/2023",
     "name": "Vegetable Stir-Fry",
     "desc": "Quick and healthy stir-fried vegetables",
     "isFav": false,
@@ -125,6 +129,7 @@
   },
   {
     "id": 5,
+    "date": "13/10/2023",
     "name": "Mango Salsa",
     "desc": "Refreshing tropical salsa with a hint of spice",
     "isFav": false,
@@ -154,6 +159,7 @@
   },
   {
     "id": 6,
+    "date": "12/10/2023",
     "name": "Spaghetti Bolognese",
     "desc": "Classic Italian meat sauce with pasta",
     "isFav": false,
@@ -186,6 +192,7 @@
   },
   {
     "id": 7,
+    "date": "12/12/2023",
     "name": "Avocado Toast",
     "desc": "Simple and nutritious breakfast or snack",
     "isFav": false,
@@ -215,6 +222,7 @@
   },
   {
     "id": 8,
+    "date": "1/12/2023",
     "name": "Margherita Pizza",
     "desc": "Classic Italian pizza with simple and fresh ingredients",
     "isFav": false,
